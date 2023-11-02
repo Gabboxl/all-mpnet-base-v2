@@ -9,7 +9,7 @@ license: apache-2.0
 datasets:
 - s2orc
 - flax-sentence-embeddings/stackexchange_xml
-- MS Marco
+- ms_marco
 - gooaq
 - yahoo_answers_topics
 - code_search_net
