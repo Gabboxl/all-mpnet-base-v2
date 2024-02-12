@@ -1,11 +1,12 @@
 ---
-pipeline_tag: sentence-similarity
+language: en
+license: apache-2.0
+library_name: sentence-transformers
 tags:
 - sentence-transformers
 - feature-extraction
 - sentence-similarity
-language: en
-license: apache-2.0
+- transformers
 datasets:
 - s2orc
 - flax-sentence-embeddings/stackexchange_xml
@@ -28,7 +29,7 @@ datasets:
 - embedding-data/SPECTER
 - embedding-data/PAQ_pairs
 - embedding-data/WikiAnswers
-
+pipeline_tag: sentence-similarity
 ---
 
 
